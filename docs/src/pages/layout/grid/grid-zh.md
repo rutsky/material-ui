@@ -68,7 +68,7 @@ The following demo doesn't follow the Material Design specification, but illustr
 
 {{"demo": "pages/layout/grid/ComplexGrid.js"}}
 
-## Limitations
+## 局限性
 
 ### Negative margin
 

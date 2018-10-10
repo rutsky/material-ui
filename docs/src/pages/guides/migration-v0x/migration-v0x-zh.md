@@ -76,7 +76,7 @@ Material-UI was started [4 years ago](https://github.com/mui-org/material-ui/com
 
 4. After that, you are free to migrate one component instance at the time.
 
-## Components
+## 组件
 
 ### 自动补全
 

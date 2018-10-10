@@ -1,16 +1,16 @@
 ---
-title: Tabs React component
+title: React 选项卡组件
 components: Tabs, Tab
 ---
-# Tabs
+# Tab选项卡
 
-<p class="description">Tabs make it easy to explore and switch between different views.</p>
+<p class="description">选项卡可以轻松浏览和切换不同的视图.</p>
 
 [Tabs](https://material.io/design/components/tabs.html) organize and allow navigation between groups of content that are related and at the same level of hierarchy.
 
-## Simple Tabs
+## 简单选项卡
 
-A simple example with no frills.
+一个简单例子
 
 {{"demo": "pages/demos/tabs/SimpleTabs.js"}}
 
@@ -20,31 +20,31 @@ Long labels will automatically wrap on tabs. If the label is too long for the ta
 
 {{"demo": "pages/demos/tabs/TabsWrappedLabel.js"}}
 
-### Disabled Tab
+### 禁用的选项卡
 
-A Tab can be disabled by setting `disabled` property.
+可以通过设置 `property` 属性来禁用选项卡>.
 
 {{"demo": "pages/demos/tabs/DisabledTabs.js"}}
 
-## Fixed Tabs
+## 固定选项卡
 
-Fixed tabs should be used with a limited number of tabs and when consistent placement will aid muscle memory.
+固定标签应与有限数量的标签一起使用, 并且一致的放置将有助于肌肉记忆.
 
-### Full width
+### 100%宽度
 
 The `fullWidth` property should be used for smaller views. This demo also uses [react-swipeable-views](https://github.com/oliviertassinari/react-swipeable-views) to animate the Tab transition, and allowing tabs to be swiped on touch devices.
 
 {{"demo": "pages/demos/tabs/FullWidthTabs.js"}}
 
-### Centered
+### 居中对齐
 
-The `centered` property should be used for larger views.
+应将 `centered` 属性用于较大的视图.
 
 {{"demo": "pages/demos/tabs/CenteredTabs.js"}}
 
-## Scrollable Tabs
+## 可滚动的选项卡
 
-### Automatic Scroll Buttons
+### 自动滚动按钮
 
 Left and right scroll buttons will automatically be presented on desktop and hidden on mobile. (based on viewport width)
 
@@ -62,13 +62,13 @@ Left and right scroll buttons will never be presented. All scrolling must be ini
 
 {{"demo": "pages/demos/tabs/ScrollableTabsButtonPrevent.js"}}
 
-## Icon Tabs
+## 含图标的选项卡
 
 Tab labels may be either all icons or all text.
 
 {{"demo": "pages/demos/tabs/IconTabs.js"}} {{"demo": "pages/demos/tabs/IconLabelTabs.js"}}
 
-## Customized Tabs
+## 自定义的选项卡
 
 If you have read the [overrides documentation page](/customization/overrides/) but aren't confident jumping in, here's an example of how you can change the main color of the Tabs. The following demo matches the [Ant Design UI](https://ant.design/components/tabs/).
 
