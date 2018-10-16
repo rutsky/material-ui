@@ -164,6 +164,16 @@ This will apply a change such as the following:
 +<Icon>home</Icon>
 ```
 
+### Circular Progress
+
+```diff
+-import CircularProgress from 'material-ui/CircularProgress';
++import CircularProgress from '@material-ui/core/CircularProgress';
+
+-<CircularProgress mode="indeterminate" />
++<CircularProgress variant="indeterminate" />
+```
+
 ### Drop Down Menu
 
 ```diff
