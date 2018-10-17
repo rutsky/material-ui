@@ -20,9 +20,9 @@ Material Design中的[响应式布局](https://material.io/design/layout/respons
 
 - 移动设备起步: 1000
 - 应用栏：1100
-- drawer: 1200
-- modal: 1300
-- snackbar: 1400
-- tooltip: 1500
+- drawer（抽屉）：1200
+- modal（浮层）：1300
+- snackbar：1400
+- tooltip（提示）：1500
 
-These values can always be customized. You will find them in the theme under the [`zIndex`](/customization/default-theme/?expend-path=$.zIndex) key. We don’t encourage customization of individual values; should you change one, you likely need to change them all.
+这些值可以自定义。 你可在theme（主题）的[`zindex`](/customization/default-theme/?expend-path=$.zIndex)键中找到它们。 我们不建议自定义不同的值，如果你修改了其中一项，你很可能需要修改全部。
